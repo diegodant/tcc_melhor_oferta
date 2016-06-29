@@ -1,0 +1,214 @@
+/* CSS Melhor Oferta */
+
+
+/*Inicio Página Identificação.asp*/
+
+body{
+	background-color:#FFF;
+
+
+}
+
+.bg_login_empresa{
+	background-image:url(../imagens/identificacao/bg_empresas.jpg);
+	background-repeat:no-repeat;
+	width:716px;
+	height:137px;
+}
+
+.bg_login_usuario{
+	background-image: url(../imagens/identificacao/bg_usuarios.jpg);
+	background-repeat:no-repeat;
+	width:715px;
+	height:137px;
+}
+
+.texto_minha_conta p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:9px;
+	color:#FFF;
+	margin-left:17px;
+	margin-bottom:3px;
+}
+
+.texto_minha_conta a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:8px;
+	color:#FFF;
+	margin-left:20px;
+	
+ 
+}
+
+.campo_empresa_g{
+	width:296px;
+	height:19px;
+	color: #999;
+	border:1px solid #FFF;
+
+}
+.campo_empresa_p{
+	width:181px;
+	height:19px;
+	color: #999;
+	border:1px solid #FFF;
+
+}
+
+/*Fim Página Identificação.asp*/
+
+.bg_box_nova_solicitacao{
+	width:747px;
+	height:215px;
+	background-image:url(../imagens/nova_solicitacao/bg_box_solicitacao.gif);
+	background-repeat:no-repeat;
+	
+}
+
+/*Inicio Estilo nova solicitação*/
+
+.box_g{
+	width:310px;
+	height:73px;
+	border:1px solid #FFF;
+	
+}
+
+.box_p{
+	width:55px;
+	height:24px;
+	border:1px solid #FFF;
+	
+}
+.box_m{
+	width:310px;
+	height:22px;
+	border:1px solid #FFF;
+	
+}
+
+
+.box_soli{
+	height:73px;
+	border:1px solid #FFF;
+	
+}
+
+
+/*Fim Estilo nova solicitação*/
+
+
+/*Inicio área restrita empresa*/
+
+
+.Restrito_empresa h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#333;
+	margin:10px;
+
+}
+
+.Restrito_empresa a{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#F90;
+	margin:10px;
+
+}
+
+.Restrito_empresa a:hover{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#039;
+	margin:10px;
+
+}
+
+
+.list_restrita_empresa ul li {
+	display:inline;
+	float:left;
+}
+
+.list_restrita_empresa li {
+	margin-bottom:10px;
+	border-bottom:dotted 1px #F90;
+	
+	
+}
+
+
+
+
+/*Fim área restrita empresa*/
+
+
+.Restrito_comprador h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#333;
+	margin:10px;
+
+}
+
+.Restrito_comprador a{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#3AB54A;
+	margin:10px;
+
+}
+
+.Restrito_comprador a:hover{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#039;
+	margin:10px;
+
+}
+
+
+.list_restrita_comprador ul li {
+	display:inline;
+	float:left;
+}
+
+.list_restrita_comprador li {
+	margin-bottom:10px;
+	border-bottom:dotted 1px #3AB54A;
+	
+	
+}
+
+
+
+.Restrito_vendedor h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#333;
+	margin:10px;
+
+}
+
+.Restrito_vendedor a{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#F29400;
+	margin:10px;
+
+}
+
+.Restrito_vendedor a:hover{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#039;
+	margin:10px;
+
+}
+
+
+

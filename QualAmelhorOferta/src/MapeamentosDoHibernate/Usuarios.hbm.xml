@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 17/02/2012 10:58:55 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="qualamelhorofe" name="Entidades.Usuarios" table="usuarios">
+    <id name="nusuario" type="java.lang.Integer">
+      <column name="NUsuario"/>
+      <generator class="identity"/>
+    </id>
+    <property name="nome" type="string">
+      <column length="200" name="Nome"/>
+    </property>
+    <property name="apelido" type="string">
+      <column length="40" name="Apelido"/>
+    </property>
+    <property name="email" type="string">
+      <column length="200" name="Email"/>
+    </property>
+    <property name="cpf" type="string">
+      <column length="14" name="CPF"/>
+    </property>
+    <property name="dataNascimento" type="date">
+      <column length="10" name="DataNascimento"/>
+    </property>
+    <property name="sexo" type="string">
+      <column length="9" name="Sexo"/>
+    </property>
+    <property name="telefone" type="string">
+      <column length="12" name="Telefone"/>
+    </property>
+    <property name="celular" type="string">
+      <column length="12" name="Celular"/>
+    </property>
+    <property name="cep" type="string">
+      <column length="9" name="CEP"/>
+    </property>
+    <property name="endereco" type="string">
+      <column length="200" name="Endereco"/>
+    </property>
+    <property name="numero" type="string">
+      <column length="10" name="Numero"/>
+    </property>
+    <property name="complemento" type="string">
+      <column length="100" name="Complemento"/>
+    </property>
+    <property name="bairro" type="string">
+      <column length="100" name="Bairro"/>
+    </property>
+    <property name="regiao" type="string">
+      <column length="20" name="Regiao"/>
+    </property>
+    <property name="estado" type="string">
+      <column length="50" name="Estado"/>
+    </property>
+    <property name="cidade" type="string">
+      <column length="100" name="Cidade"/>
+    </property>
+    <property name="login" type="string">
+      <column length="20" name="Login"/>
+    </property>
+    <property name="senha" type="string">
+      <column length="12" name="Senha"/>
+    </property>
+    <property name="ativo" type="java.lang.Integer">
+      <column name="Ativo"/>
+    </property>
+    <property name="ua" type="timestamp">
+      <column length="19" name="UA"/>
+    </property>
+  </class>
+</hibernate-mapping>

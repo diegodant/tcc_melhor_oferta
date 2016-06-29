@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 17/02/2012 10:58:55 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="qualamelhorofe" name="Entidades.Categorias" table="categorias">
+    <id name="ncategoria" type="java.lang.Integer">
+      <column name="NCategoria"/>
+      <generator class="identity"/>
+    </id>
+    <property name="nome" type="string">
+      <column length="50" name="Nome"/>
+    </property>
+    <property name="ativa" type="java.lang.Integer">
+      <column name="Ativa"/>
+    </property>
+    <property name="ua" type="timestamp">
+      <column length="19" name="UA"/>
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 17/02/2012 10:58:55 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="qualamelhorofe" name="Entidades.Solicitacaosubcategorias" table="solicitacaosubcategorias">
+    <composite-id class="Entidades.SolicitacaosubcategoriasId" name="id">
+      <key-property name="nsolicitacao" type="int">
+        <column name="NSolicitacao"/>
+      </key-property>
+      <key-property name="nsubCategoria" type="int">
+        <column name="NSubCategoria"/>
+      </key-property>
+    </composite-id>
+    <property name="ncategoria" type="int">
+      <column name="NCategoria" not-null="true"/>
+    </property>
+    <property name="ua" type="timestamp">
+      <column length="19" name="UA"/>
+    </property>
+  </class>
+</hibernate-mapping>

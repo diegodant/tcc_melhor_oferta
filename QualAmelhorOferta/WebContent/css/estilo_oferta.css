@@ -1,0 +1,932 @@
+﻿/* CSS Melhor Oferta */
+
+@import "estilo_oferta2.css";
+body {
+	background-color:#FFF;
+}
+* {
+	margin:0px;
+	padding:0px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#808080;
+	font-size:13px;
+}
+ul li {
+	list-style:none;
+}
+#principal {
+	width:1023px;
+	left:50%;
+	position:absolute;
+	margin-left:-511px;
+}
+/*inicio topo*/
+.back {
+	background-color:#0C3182;
+}
+.logo img {
+	margin:0px 0px 21px 32px;
+}
+/*fim topo*/
+
+/*inicio menu*/
+.menu ul li {
+	float:left;
+	display:inline;
+	height:42px;
+}
+/*fim menu*/
+
+/*Busca*/
+.banner {
+	margin-bottom:1px;
+}
+.back_busca {
+	background-image:url(../imagens/busca/back_busca.jpg);
+	height:61px;
+}
+.bac_la {
+	background-color:#EB9001;
+	border-right:1px solid #FFF;
+}
+.bac_cinz {
+	background-color:#666;
+	border-right:1px solid #FFF;
+}
+.bac_cza {
+	background-color:#DEDEDE;
+}
+.linha_d {
+	border-right:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+}
+.titu_eu img {
+	margin:8px 0px 4px 23px;
+}
+.titu_ca img {
+	margin:8px 0px 4px 0px;
+}
+.form_bu {
+	border: 1px solid #a3acb1;
+	margin:0px 0px 0px 23px;
+	height:22px;
+	width:300px;
+}
+.form_bu2 {
+	border: 1px solid #a3acb1;
+	height:22px;
+	margin:0px 0px 0px 0px;
+	width:200px;
+}
+.mais_pe {
+	border-left:1px solid #b2b2b2;
+	border-right:1px solid #b2b2b2;
+}
+.mais_pe2 {
+	border:1px solid #b2b2b2;
+}
+.mais_pedi_li ul li {
+	margin:0px 0px 0px 0px;
+}
+.mais_pedi_li ul li a {
+	text-decoration:none;
+}
+.mais_pedi_li ul {
+	margin:13px 0px 10px 14px;
+}
+.veja_ma a {
+	color:#0A71B4;
+}
+.li {
+	background-image:url(../imagens/li_ti.jpg);
+}
+/*Fim Busca*/
+
+/*Ultimas Solicitações*/
+.ulti_soli2 {
+	border-bottom:1px solid #b2b2b2;
+	border-left:1px solid #b2b2b2;
+	border-right:1px solid #b2b2b2;
+}
+.ulti_soli2 a {
+	margin:0px 10px 5px 0px;
+	font-size:13px;
+	color:#0A71B4;
+}
+.ulti_soli {
+	border-left:1px solid #b2b2b2;
+	border-right:1px solid #b2b2b2;
+}
+.ulti_soli ul {
+	margin:13px 33px 10px 18px;
+}
+.ulti_soli ul li a {
+	text-decoration:none;
+}
+.ulti_soli ul li a:hover {
+	text-decoration:underline;
+}
+.ulti_soli ul li h2 {
+	font-weight:700;
+}
+.ulti_soli ul li {
+	margin-bottom:16px;
+}
+.ulti_soli ul li h1 {
+	font-weight:bold;
+	color:#666;
+}
+/**/
+
+.minha_conta_h {
+	background-image:url(../imagens/minha_conta_h2.jpg);
+	height:133px;
+}
+.minha_co_campo {
+	height:15px;
+	border-bottom:1px solid #A5ACB2;
+	border-top:1px solid #A5ACB2;
+	border-left:none;
+	border-right:none;
+	width:178px;
+}
+.minha_co_campo_senha {
+	height:15px;
+	border-bottom:1px solid #A5ACB2;
+	border-top:1px solid #A5ACB2;
+	border-left:none;
+	border-right:none;
+	width:100px;
+}
+.publicidade_home ul li img {
+	margin-bottom:12px;
+}
+.back_tag {
+	background-image:url(../imagens/titu_tag_back.jpg);
+	background-repeat:repeat-x;
+}
+/*rodape*/
+
+.menu_rodape p {
+	margin-bottom:10px;
+	font-size:10px;
+}
+.menu_rodape a {
+	text-decoration:none;
+	font-size:10px;
+}
+.linha_rodape {
+	border-bottom:1px solid #999;
+}
+.copy p {
+	color:#0C3082;
+	font-size:10px;
+	margin-top:10px;
+}
+/*usuarios*/
+.form_bu_usu2 {
+	border: 1px solid #a3acb1;
+	height:22px;
+	margin:0px 0px 0px 0px;
+	width:150px;
+}
+.form_bu_usu1 {
+	border: 1px solid #a3acb1;
+	height:22px;
+	margin:0px 0px 0px 0px;
+	width:50px;
+}
+.ok_usu img {
+	margin-left:10px;
+}
+.bd_linha_bx {
+	border-bottom:1px solid #AFAFB1;
+	border-left:1px solid #AFAFB1;
+	border-right:1px solid #AFAFB1;
+}
+.bd_linha_lados {
+	border-left:1px solid #AFAFB1;
+	border-right:1px solid #AFAFB1;
+}
+.bd_linha_bx_2 {
+	border-bottom:1px solid #AFAFB1;
+}
+/*Caracteristicas*/
+
+.caracteristicas ul li h1 {
+	font-size:16px;
+	color:#808080;
+	margin-bottom:7px;
+}
+.caracteristicas h2 {
+	font-size:16px;
+	color:#F00;
+	margin-bottom:7px;
+}
+.caracteristicas p {
+	font-size:11px;
+	color:#808080;
+	margin-bottom:15px;
+}
+.bt_reportar img {
+	margin-bottom:25px;
+}
+.detalhes {
+	border-left:1px solid #bcb7b4;
+	border-right:1px solid #bcb7b4;
+}
+.detalhes_int {
+	border-bottom:1px solid #bcb7b4;
+}
+.logo_lojas ul li a {
+	font-size:10px;
+	color:#0A71B4;
+	margin-left:4px;
+}
+.logo_lojas ul li img {
+	margin-bottom:15px;
+}
+.logo_lojas ul {
+	margin:7px 0px 7px 4px;
+}
+.atendimento ul li img {
+	font-size:8px;
+	margin-top:3px;
+}
+.atendimento ul {
+	margin-left:8px;
+}
+.atendimento ul li img {
+	margin-bottom:2px;
+}
+/*Fim Caracteristicas*/
+
+/*Caracteristicas_segundo*/
+
+.caracteristicas2 ul li h1 {
+	font-size:16px;
+	color:#808080;
+	margin-bottom:7px;
+	margin-top:10px;
+}
+.caracteristicas2 h2 {
+	font-size:16px;
+	color:#F00;
+	margin-bottom:7px;
+}
+.caracteristicas2 p {
+	font-size:11px;
+	color:#808080;
+	margin-bottom:15px;
+}
+.caracteristicas2 img {
+	margin-bottom:10px;
+	margin-left:330px;
+	margin-top:10px;
+}
+.logos img {
+	margin-top:10px;
+}
+/*Fim Caracteristicas*/
+
+
+/*caracteristicas dos conteudos menores*/
+
+.caracteristicas_p ul li h1 {
+	font-size:16px;
+	color:#808080;
+	margin-top:9px;
+	margin-bottom:3px;
+}
+.caracteristicas_p ul li h3 {
+	font-size:14px;
+	color:#808080;
+	margin-top:9px;
+	margin-bottom:3px;
+}
+.caracteristicas_p h2 {
+	font-size:14px;
+	color:#F00;
+	margin-bottom:3px;
+}
+.caracteristicas_p p {
+	font-size:11px;
+	color:#808080;
+	margin-bottom:15px;
+}
+.bt_reportar_p img {
+	margin-bottom:25px;
+}
+.logo_po img {
+	margin:0px 12px 0px 12px;
+}
+.logo_abuso img {
+	margin:0px 12px 7px 12px;
+}
+.linha_solicitacoes {
+	background-image:url(../imagens/usuarios/linha_soliticacoes.jpg);
+	background-repeat:repeat-x;
+}
+.minha_conta_bordas {
+	border-left:1px solid #7dc8a1;
+	border-right:1px solid #7dc8a1;
+}
+.minha_conta h1 {
+	font-size:15px;
+	color:#808080;
+	font-style:italic;
+	margin:18px 0px 0px 9px;
+}
+.minha_conta b {
+	font-size:17px;
+	color:#000;
+}
+.minha_conta p {
+	margin:1px 0px 0px 9px;
+	font-style:italic;
+	font-weight:700;
+}
+.lista_conta ul li {
+	list-style-image:url(../imagens/usuarios/bullet_minha-conta.jpg);
+	margin:0px 0px 6px 0px;
+	font-size:13px;
+	font-style:italic;
+	text-align:left;
+}
+.lista_conta ul li a {
+	margin:0px 0px 6px 0px;
+	font-size:13px;
+	text-decoration:none;
+}
+.lista_conta ul {
+	margin:15px 0px 15px 28px;
+}
+.nova a {
+	margin:15px 0px 0px 10px;
+}
+.nova a {
+	font-size:9px;
+	color:#009245;
+	font-style:italic;
+}
+/*fim caracteristicas dos conteudos menores*/
+
+
+.titulos_internos img {
+	margin:15px 0px 7px 0px;
+}
+/*LINK QUERO A MELHOR OFERTA*/
+
+.soli_cima {
+	background-image:url(../imagens/melhor_oferta/back_cima.jpg);
+	background-repeat:repeat-x;
+	text-align:center;
+}
+.soli_bx {
+	background-image:url(../imagens/melhor_oferta/back_baixo.jpg);
+	background-repeat:repeat-x;
+}
+.soli_es {
+	background-image:url(../imagens/melhor_oferta/back_esquerda.jpg);
+	background-repeat:repeat-y;
+}
+.soli_di {
+	background-image:url(../imagens/melhor_oferta/back_direita.jpg);
+	background-repeat:repeat-y;
+}
+.soli_geral {
+	background-image:url(../imagens/melhor_oferta/back_geral.jpg);
+}
+/*buscar solicitações*/
+
+.soli_cimaz {
+	background-image:url(../imagens/busca_solicitacoes/back_cima.jpg);
+	background-repeat:repeat-x;
+}
+.soli_bxz {
+	background-image:url(../imagens/busca_solicitacoes/back_baixo.jpg);
+	background-repeat:repeat-x;
+}
+.soli_esz {
+	background-image:url(../imagens/busca_solicitacoes/back_esquerda.jpg);
+	background-repeat:repeat-y;
+}
+.soli_diz {
+	background-image:url(../imagens/busca_solicitacoes/back_direita.jpg);
+	background-repeat:repeat-y;
+}
+.soli_geralz {
+	background-image:url(../imagens/busca_solicitacoes/back_geral.jpg);
+}
+/**/
+
+.form_sol {
+	height:19px;
+	color: #999;
+	border:1px solid #FFF;
+	font-size:13px;
+}
+.check_sol {
+	border:none;
+}
+.txt_soli {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:13px;
+	font-style:italic;
+}
+.lista_soli {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	font-style:italic;
+}
+.lista_soli ul li {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	font-style:italic;
+}
+.titu_sol h1 {
+	font-size:16px;
+	color:#FFF;
+	font-weight:bold;
+	font-style:italic;
+	margin-left: 50px;
+}
+.txt_solicitacao p {
+	font-size:12px;
+	color:#CCC;
+	font-weight:600;
+	margin-left:5px;
+}
+/* FIM QUERO A MELHOR OFERTA*/
+
+
+
+/*LINK CADASTRO USUARIO*/
+
+.usuarios_c {
+	background-image:url(../imagens/cadastro_usuario/back_cima.jpg);
+	background-repeat:repeat-x;
+}
+.usuarios_bl {
+	background-image:url(../imagens/cadastro_usuario/back_baixo.jpg);
+	background-repeat:repeat-x;
+}
+.usuarios_e {
+	background-image:url(../imagens/cadastro_usuario/back_esquerda.jpg);
+	background-repeat:repeat-y;
+}
+.usuarios_d {
+	background-image:url(../imagens/cadastro_usuario/back_direita.jpg);
+	background-repeat:repeat-y;
+}
+.usuarios_ge {
+	background-image:url(../imagens/cadastro_usuario/back_geral.jpg);
+}
+.form_sol {
+	height:19px;
+	color: #999;
+	border:1px solid #FFF;
+	font-size:13px;
+}
+/*LINK CADASTRO EMPRESA*/
+
+.usuarios_cl {
+	background-image:url(../imagens/cadastro_usuario/back_cima_l.jpg);
+	background-repeat:repeat-x;
+}
+.usuarios_bll {
+	background-image:url(../imagens/cadastro_usuario/back_baixo_l.jpg);
+	background-repeat:repeat-x;
+}
+.usuarios_el {
+	background-image:url(../imagens/cadastro_usuario/back_esquerda_l.jpg);
+	background-repeat:repeat-y;
+}
+.usuarios_dl {
+	background-image:url(../imagens/cadastro_usuario/back_direita_l.jpg);
+	background-repeat:repeat-y;
+}
+.usuarios_gel {
+	background-image:url(../imagens/cadastro_usuario/back_geral_l.jpg);
+}
+.bg_lista {
+	background-color:#eaeaea;
+}
+.lista_planos h1 {
+	font-size:15px;
+}
+.lista_planos p {
+}
+.lista_planosd h1 {
+	font-size:15px;
+	margin-left:10px;
+	margin-bottom:7px;
+}
+.lista_planosd p {
+	font-size:12px;
+	margin-left:10px;
+}
+.lista_detalhes_planos h1 {
+	font-size:20px;
+	margin:0px 0px 10px 0px;
+}
+.linha_cate {
+	border-bottom:1px solid #FFF;
+}
+.bandeiras_li ul li {
+	border-bottom:1px solid #CCC;
+	margin-bottom:15px;
+	font-size:14px;
+	font-weight:700;
+}
+.bandeiras_li ul li img {
+	margin-right:10px;
+	margin-left:10px;
+}
+.bandeiras_li ul {
+	margin-top:20px;
+}
+.exp_planos h1 {
+	font-style:italic;
+	font-size:18px;
+	margin:0px 0px 15px 40px;
+}
+.exp_planos p {
+	margin:0px 20px 0px 40px;
+}
+.exp_planos h2 {
+	font-size:16px;
+	color:#ECA227;
+	margin:15px 0px 0px 40px;
+}
+/*Confirma pedido*/
+
+.confirma {
+	color:#666;
+	font-size:12px;
+	font-style:italic;
+	font-weight:bold;
+}
+.confirma2 {
+	color:#666;
+	margin:0px 0px 0px 5px;
+}
+.confirma2 img {
+	margin:0px 0px 0px 5px;
+}
+.confirma2 h2 {
+	font-size:16px;
+	color:#ECA227;
+	margin:15px 0px 10px 60px;
+}
+/**/
+
+.interacoes h2 {
+	font-size:18px;
+	color:#F90;
+	margin:10px 0px 6px 16px;
+}
+.interacoes {
+	border-bottom:1px dotted #999;
+}
+.avali ul li h1 {
+	font-size:12px;
+	font-style:italic;
+	margin-bottom:5px;
+}
+.avali ul {
+	margin:5px 8px 5px 5px;
+}
+.avali ul li {
+	float:left;
+}
+.bt_aceitar img {
+	margin-left:16px;
+}
+#principal22 {
+	border-bottom:1px dotted #999;
+	width:300px;
+	left:50%;
+	margin-left:150px;
+}
+.categorias a {
+	text-decoration:none;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	color:#006;
+}
+.categorias a:hover {
+	text-decoration:underline;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.categorias2 a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	text-decoration:none;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	color:#C90;
+}
+.categorias2 a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	text-decoration:underline;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	color:#C90;
+}
+.categorias {
+	width:35px;
+	height:30px;
+}
+.categorias h1 {
+	margin-bottom:15px;
+	margin-top:20px;
+	color:#4A4E56;
+}
+.empresa p {
+	margin:0px 30px 25px 0px;
+}
+.contato {
+	color:#092462;
+	font-size:14px;
+	text-align:right;
+}
+.form {
+	border:1px solid #EC9700;
+}
+/*TAgs*/
+.t1 a {
+	color:#F29400;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.t1 a:hover {
+	color:#F29400;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.t2 a {
+	color:#0A71B4;
+	font-size:15px;
+	text-decoration:none;
+}
+.t2 a:hover {
+	color:#0A71B4;
+	font-size:15px;
+	text-decoration:underline;
+}
+.t3 a {
+	color:#808080;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.t3 a:hover {
+	color:#808080;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.t4 a {
+	color:#F29400;
+	font-size:12px;
+	text-decoration:none;
+}
+.t4 a:hover {
+	color:#F29400;
+	font-size:12px;
+	text-decoration:underline;
+}
+.t5 a {
+	color:#808080;
+	font-size:12px;
+	text-decoration:none;
+}
+.t5 a:hover {
+	color:#808080;
+	font-size:12px;
+	text-decoration:underline;
+}
+.t6 a {
+	color:#BDCCD4;
+	font-size:15px;
+	text-decoration:none;
+}
+.t6 a:hover {
+	color:#BDCCD4;
+	font-size:15px;
+	text-decoration:underline;
+}
+.tabela_in {
+	color:#FFF;
+	font-weight:bold;
+	size:11px;
+}
+.deta_tabela a {
+	font-size:10px;
+}
+.deta_tabela {
+	font-size:10px;
+	text-align:center;
+}
+.avaliar {
+	border-top:2px solid #FFF;
+}
+.retorno_pagamento p {
+	font-family:'Arial', Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	margin:05px;
+}
+.retorno_pagamento h1 {
+	font-family:'Arial', Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFF;
+	margin:05px;
+}
+.retorno_pagamento h2 {
+	font-family:'Arial', Helvetica, sans-serif;
+	font-size:11px;
+	color:#006;
+	margin:05px;
+}
+.bg_retorno {
+	background-color:#999;
+}
+.borda_retorno {
+	border:1px solid #CCC;
+}
+.vz_avaliacoes ul li {
+	text-decoration:none;
+	margin-bottom:10px;
+}
+.vz_avaliacoes li {
+	border:1px solid #CCC;
+}
+.vz_avaliacoes ul li p {
+	margin-left:10px;
+}
+.pag_visita a:active {
+	color:purple;
+}
+.img_deta img {
+	margin:10px 0px 10px 10px;
+}
+/**  Ajustes pagina de cadastro vendedor **/
+
+.ct_di_lar {
+	background-image:url(../imagens/cadastro_usuario/ct_cima_di_l.jpg);
+	background-repeat:no-repeat;
+	width:24px;
+	height:27px;
+}
+.ct_es_lar {
+	background-image:url(../imagens/cadastro_usuario/ct_cima_es_l.jpg);
+	background-repeat:no-repeat;
+	width:24px;
+	height:27px;
+}
+.ct_es_bx_lar {
+	background-image:url(../imagens/cadastro_usuario/ct_baixo_es_l.jpg);
+	background-repeat:no-repeat;
+	width:24px;
+	height:27px;
+}
+.ct_di_bx_lar {
+	background-image:url(../imagens/cadastro_usuario/ct_baixo_di_l.jpg);
+	background-repeat:no-repeat;
+	width:24px;
+	height:27px;
+}
+/**Ajuste cadastro usuario**/
+
+.ct_di_vd {
+	background-image: url(../imagens/cadastro_usuario/ct_cima_di.jpg);
+	background-repeat:no-repeat;
+	width:24px;
+	height:27px;
+}
+.ct_es_vd {
+	background-image: url(../imagens/cadastro_usuario/ct_cima_es.jpg);
+	background-repeat:no-repeat;
+	width:24px;
+	height:27px;
+}
+.ct_es_bx_vd {
+	background-image: url(../imagens/cadastro_usuario/ct_baixo_es.jpg);
+	background-repeat:no-repeat;
+	width:24px;
+	height:27px;
+}
+.ct_di_bx_vd {
+	background-image: url(../imagens/cadastro_usuario/ct_baixo_di.jpg);
+	background-repeat:no-repeat;
+	width:24px;
+	height:27px;
+}
+.campo_categorias {
+	margin:0px;
+	padding:0px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#808080;
+	font-size:11px;
+}
+/*  Pagina Restrito Comprador  */
+.titu-tabela-avaliacao {
+	height:20p;
+}
+.lista-categorias-01 {
+}
+.lista-categorias-01 p, .lista-categorias-01 a {
+	color:#006;
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+}
+.lista-categorias-01 a:hover {
+	color:#006;
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-decoration:underline;
+}
+.lista-categorias-02 h2, .lista-categorias-02 a {
+	color:#CC9900;
+	font:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	text-decoration:none;
+}
+.lista-categorias-02 a:hover {
+	color:#CC9900;
+	font:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	border-bottom: #CC9900 2px solid;
+}
+/* Esqueci minha senha  */
+#esqueci_senha {
+	background-color:#E88800;
+	width:350px;
+	height:auto;
+	margin:470px 0 0 500px;
+	padding:0 0 0 0;
+	position:absolute;
+	z-index:3000;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-o-border-radius: 5px 5px 5px 5px;
+	box-shadow:#000 2px 2px 5px;
+	-moz-box-shadow:#000 2px 2px 5px;
+	-webkit-box-shadow:#000 2px 2px 5px;
+	-o-box-shadow:#000 2px 2px 5px;
+}
+.login-form-senha {
+	background-image:url(../imagens/bg-sequeci-senha.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#E88800;
+	width:146px;
+	height:34px;
+	margin:0 0 0 10px;
+	padding:0 25px 0 25px;
+	/* Racks IE  */
+	padding:10px 25px 0 25px\9;
+	width:146px\9;
+	height:24px\9;
+	border:0;
+}
+.bt-esqueci-senha {
+	width:50px;
+	height:20px;
+	color:#333;
+	padding:5px 5px 5px 5px;
+	margin:0 0 0 10px;
+}
+/* Esqueci minha senha  */
+/* Pgn de Retorno de Compra  */
+#retorno-principal {
+	background:url(../imagens/retorno.png) top center no-repeat;
+	width:512px;
+	height:100px;
+	padding:150px 0 0 0;
+	margin:70px auto 0 auto;
+	text-align:center;
+}
+#retorno-principal h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+#retorno-principal a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	display:block;
+	margin:10px 0 0 0;
+}
+
+/* Pgn de Retorno de Compra  */

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 17/02/2012 10:58:55 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="qualamelhorofe" name="Entidades.Empresas" table="empresas">
+    <id name="nempresa" type="java.lang.Integer">
+      <column name="NEmpresa"/>
+      <generator class="identity"/>
+    </id>
+    <property name="nplano" type="java.lang.Integer">
+      <column name="NPlano"/>
+    </property>
+    <property name="razaoSocial" type="string">
+      <column length="300" name="RazaoSocial"/>
+    </property>
+    <property name="nomeFantasia" type="string">
+      <column length="300" name="NomeFantasia"/>
+    </property>
+    <property name="ramoAtividade" type="string">
+      <column length="100" name="RamoAtividade"/>
+    </property>
+    <property name="responsavel" type="string">
+      <column length="300" name="Responsavel"/>
+    </property>
+    <property name="tipo" type="string">
+      <column length="10" name="Tipo"/>
+    </property>
+    <property name="cnpj" type="string">
+      <column length="20" name="CNPJ"/>
+    </property>
+    <property name="cpf" type="string">
+      <column length="15" name="CPF"/>
+    </property>
+    <property name="cep" type="string">
+      <column length="9" name="CEP"/>
+    </property>
+    <property name="endereco" type="string">
+      <column length="200" name="Endereco"/>
+    </property>
+    <property name="numero" type="string">
+      <column length="8" name="Numero"/>
+    </property>
+    <property name="complemento" type="string">
+      <column length="100" name="Complemento"/>
+    </property>
+    <property name="bairro" type="string">
+      <column length="100" name="Bairro"/>
+    </property>
+    <property name="estado" type="string">
+      <column length="50" name="Estado"/>
+    </property>
+    <property name="cidade" type="string">
+      <column length="100" name="Cidade"/>
+    </property>
+    <property name="telefone" type="string">
+      <column length="12" name="Telefone"/>
+    </property>
+    <property name="email" type="string">
+      <column length="200" name="Email"/>
+    </property>
+    <property name="site" type="string">
+      <column length="200" name="Site"/>
+    </property>
+    <property name="login" type="string">
+      <column length="50" name="Login"/>
+    </property>
+    <property name="senha" type="string">
+      <column length="12" name="Senha"/>
+    </property>
+    <property name="palavrasChaves" type="string">
+      <column length="1000" name="PalavrasChaves"/>
+    </property>
+    <property name="mapa" type="string">
+      <column length="1000" name="Mapa"/>
+    </property>
+    <property name="descricao" type="string">
+      <column length="5000" name="Descricao"/>
+    </property>
+    <property name="ativa" type="java.lang.Integer">
+      <column name="Ativa"/>
+    </property>
+    <property name="ua" type="timestamp">
+      <column length="19" name="UA"/>
+    </property>
+  </class>
+</hibernate-mapping>

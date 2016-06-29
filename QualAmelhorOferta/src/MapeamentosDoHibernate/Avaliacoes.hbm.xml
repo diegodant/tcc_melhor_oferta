@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 17/02/2012 10:58:55 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="qualamelhorofe" name="Entidades.Avaliacoes" table="avaliacoes">
+    <id name="navaliacao" type="java.lang.Integer">
+      <column name="NAvaliacao"/>
+      <generator class="identity"/>
+    </id>
+    <property name="nempresa" type="java.lang.Integer">
+      <column name="NEmpresa"/>
+    </property>
+    <property name="nsolicitacao" type="java.lang.Integer">
+      <column name="NSolicitacao"/>
+    </property>
+    <property name="nusuario" type="java.lang.Integer">
+      <column name="NUsuario"/>
+    </property>
+    <property name="avaliado" type="java.lang.Integer">
+      <column name="Avaliado">
+        <comment>1 para Usuario 2 para Empresa</comment>
+      </column>
+    </property>
+    <property name="atendimento" type="java.lang.Integer">
+      <column name="Atendimento"/>
+    </property>
+    <property name="qualidade" type="java.lang.Integer">
+      <column name="Qualidade"/>
+    </property>
+    <property name="comunicacao" type="java.lang.Integer">
+      <column name="Comunicacao"/>
+    </property>
+    <property name="econfiabilidade" type="java.lang.Integer">
+      <column name="EConfiabilidade"/>
+    </property>
+    <property name="uconfiabilidade" type="java.lang.Integer">
+      <column name="UConfiabilidade"/>
+    </property>
+    <property name="comentario" type="string">
+      <column length="1000" name="Comentario"/>
+    </property>
+    <property name="ativo" type="java.lang.Integer">
+      <column name="Ativo"/>
+    </property>
+    <property name="ua" type="timestamp">
+      <column length="19" name="UA"/>
+    </property>
+  </class>
+</hibernate-mapping>

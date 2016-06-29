@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 17/02/2012 10:58:55 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="qualamelhorofe" name="Entidades.Empresassolicitacoes" table="empresassolicitacoes">
+    <composite-id class="Entidades.EmpresassolicitacoesId" name="id">
+      <key-property name="nempresa" type="int">
+        <column name="NEmpresa"/>
+      </key-property>
+      <key-property name="nsolicitacao" type="int">
+        <column name="NSolicitacao"/>
+      </key-property>
+    </composite-id>
+    <property name="ua" type="timestamp">
+      <column length="19" name="UA"/>
+    </property>
+  </class>
+</hibernate-mapping>

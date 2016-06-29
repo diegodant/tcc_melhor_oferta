@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="qualamelhorofe"/>
+  <table-filter match-name="planos"/>
+  <table-filter match-name="empresacategorias"/>
+  <table-filter match-name="propostas"/>
+  <table-filter match-name="empresas"/>
+  <table-filter match-name="assinaturas_antigas"/>
+  <table-filter match-name="teste"/>
+  <table-filter match-name="pagseguro"/>
+  <table-filter match-name="solicitacoes"/>
+  <table-filter match-name="avaliacoes"/>
+  <table-filter match-name="assinaturas"/>
+  <table-filter match-name="subcategorias"/>
+  <table-filter match-name="categorias"/>
+  <table-filter match-name="usuarios"/>
+  <table-filter match-name="interacoes"/>
+  <table-filter match-name="solicitacaosubcategorias"/>
+  <table-filter match-name="empresassolicitacoes"/>
+</hibernate-reverse-engineering>

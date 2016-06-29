@@ -1,0 +1,41 @@
+
+<table width="100%">
+			<tr>
+				<td>
+				<table width="100%">
+					<tr>
+						<td width="177">
+						<img alt="admin" height="66" src="images/logoadmin.gif" width="177" /></td>
+						
+						<td style="text-align: center"> 
+						<img alt="Melhor Oferta" height="126" src="images/logo_cliente.jpg" width="150"></td>
+						
+						<td width="211">
+<!--						<img alt="Agncia Wld" height="65" src="images/logo.jpg" width="211" /></td>-->
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="linha3" >&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="menu" height="30" align="center">
+					 <ul>
+                        <li><a href="pedidos_planos_lista.asp">Pedidos/Planos | </a></li>
+						<li><a href="planos_lista.asp">Planos | </a></li>
+						<li><a href="usuario_lista.asp">Comprador | </a></li>
+						<li><a href="empresa_lista.asp">Vendedor | </a></li>
+						<li><a href="categorias_lista.asp">Categorias/Subcategorias | </a></li>
+                        <li><a href="Solicitacoes.asp">Solicitações | </a></li>
+                      	<li><a href="interacoes_lista_busca.asp">Interações |</a></li>
+						<!--<li><a href="lista_parceiros.asp">Parceiros  </a>|</li>-->
+						<li><a href="sair.asp">Sair</a></li>
+					 </ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="linha-baixo" height="1"><img src="images/linha_bca.jpg"/></td>
+			</tr>
+
+		</table>

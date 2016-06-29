@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 17/02/2012 10:58:55 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="qualamelhorofe" name="Entidades.Solicitacoes" table="solicitacoes">
+    <id name="nsolicitacao" type="java.lang.Integer">
+      <column name="NSolicitacao"/>
+      <generator class="identity"/>
+    </id>
+    <property name="nusuario" type="java.lang.Integer">
+      <column name="NUsuario"/>
+    </property>
+    <property name="ncategoria" type="java.lang.Integer">
+      <column name="NCategoria"/>
+    </property>
+    <property name="nsubCategoria" type="java.lang.Integer">
+      <column name="NSubCategoria"/>
+    </property>
+    <property name="produto" type="string">
+      <column length="200" name="Produto"/>
+    </property>
+    <property name="prazo" type="date">
+      <column length="10" name="Prazo"/>
+    </property>
+    <property name="descricao" type="string">
+      <column length="5000" name="Descricao"/>
+    </property>
+    <property name="status" type="java.lang.Integer">
+      <column name="Status">
+        <comment>0 - Inativo, 1 - Ativo, 2 - Fechada</comment>
+      </column>
+    </property>
+    <property name="nempresaVencedora" type="java.lang.Integer">
+      <column name="NEmpresaVencedora">
+        <comment>Nº da empresa escolhida pelo usuário</comment>
+      </column>
+    </property>
+    <property name="dataFinalizacao" type="timestamp">
+      <column length="19" name="DataFinalizacao"/>
+    </property>
+    <property name="contador" type="java.lang.Integer">
+      <column name="Contador"/>
+    </property>
+    <property name="ua" type="timestamp">
+      <column length="19" name="UA"/>
+    </property>
+  </class>
+</hibernate-mapping>

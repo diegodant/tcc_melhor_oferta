@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 17/02/2012 10:58:55 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="qualamelhorofe" name="Entidades.Empresacategorias" table="empresacategorias">
+    <id name="nempresaCategoria" type="java.lang.Integer">
+      <column name="NEmpresaCategoria"/>
+      <generator class="identity"/>
+    </id>
+    <property name="nempresa" type="java.lang.Integer">
+      <column name="NEmpresa"/>
+    </property>
+    <property name="ncategoria" type="java.lang.Integer">
+      <column name="NCategoria"/>
+    </property>
+    <property name="nsubCategoria" type="java.lang.Integer">
+      <column name="NSubCategoria"/>
+    </property>
+    <property name="ua" type="timestamp">
+      <column length="19" name="UA"/>
+    </property>
+  </class>
+</hibernate-mapping>

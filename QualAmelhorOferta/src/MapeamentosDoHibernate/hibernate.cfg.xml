@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/qualamelhorofe</property>
+    <property name="hibernate.connection.username">root</property>
+    <mapping resource="MapeamentosDoHibernate/Solicitacaosubcategorias.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Planos.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Solicitacoes.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Pagseguro.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Empresacategorias.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Teste.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Usuarios.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Empresassolicitacoes.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Propostas.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Empresas.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/AssinaturasAntigas.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Categorias.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Assinaturas.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Subcategorias.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Avaliacoes.hbm.xml"/>
+    <mapping resource="MapeamentosDoHibernate/Interacoes.hbm.xml"/>
+    <mapping resource="Entidades/Interacoes.hbm.xml"/>
+    <mapping resource="Entidades/Solicitacoes.hbm.xml"/>
+    <mapping resource="Entidades/Propostas.hbm.xml"/>
+    <mapping resource="Entidades/Categorias.hbm.xml"/>
+    <mapping resource="Entidades/Pagseguro.hbm.xml"/>
+    <mapping resource="Entidades/Teste.hbm.xml"/>
+    <mapping resource="Entidades/Empresas.hbm.xml"/>
+    <mapping resource="Entidades/Avaliacoes.hbm.xml"/>
+    <mapping resource="Entidades/Empresassolicitacoes.hbm.xml"/>
+    <mapping resource="Entidades/AssinaturasAntigas.hbm.xml"/>
+    <mapping resource="Entidades/Planos.hbm.xml"/>
+    <mapping resource="Entidades/Usuarios.hbm.xml"/>
+    <mapping resource="Entidades/Assinaturas.hbm.xml"/>
+    <mapping resource="Entidades/Solicitacaosubcategorias.hbm.xml"/>
+    <mapping resource="Entidades/Empresacategorias.hbm.xml"/>
+    <mapping resource="Entidades/Subcategorias.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Usuarios.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Pagseguro.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Avaliacoes.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Interacoes.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Assinaturas.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Empresassolicitacoes.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/AssinaturasAntigas.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Solicitacoes.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Planos.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Empresas.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Teste.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Empresacategorias.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Propostas.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Solicitacaosubcategorias.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Categorias.hbm.xml"/>
+    <mapping resource="br/com/melhoroferta/entidades/Subcategorias.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

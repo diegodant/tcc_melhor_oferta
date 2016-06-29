@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 17/02/2012 10:58:55 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="qualamelhorofe" name="Entidades.AssinaturasAntigas" table="assinaturas_antigas">
+    <id name="nassinatura" type="java.lang.Integer">
+      <column name="NAssinatura"/>
+      <generator class="identity"/>
+    </id>
+    <property name="nempresa" type="java.lang.Integer">
+      <column name="NEmpresa"/>
+    </property>
+    <property name="nplano" type="java.lang.Integer">
+      <column name="NPlano"/>
+    </property>
+    <property name="data" type="date">
+      <column length="10" name="Data"/>
+    </property>
+    <property name="valorTotal" type="java.lang.Double">
+      <column name="ValorTotal" precision="22" scale="0"/>
+    </property>
+    <property name="dataPagamento" type="date">
+      <column length="10" name="DataPagamento"/>
+    </property>
+    <property name="dataValidade" type="date">
+      <column length="10" name="DataValidade"/>
+    </property>
+    <property name="negociacoes" type="java.lang.Integer">
+      <column name="Negociacoes"/>
+    </property>
+    <property name="formaPagamento" type="string">
+      <column length="100" name="FormaPagamento"/>
+    </property>
+    <property name="nparcelas" type="java.lang.Integer">
+      <column name="NParcelas"/>
+    </property>
+    <property name="historico" type="string">
+      <column length="10000" name="Historico"/>
+    </property>
+    <property name="dadosAdicionais" type="string">
+      <column length="1000" name="DadosAdicionais"/>
+    </property>
+    <property name="status" type="java.lang.Integer">
+      <column name="Status"/>
+    </property>
+    <property name="ua" type="timestamp">
+      <column length="19" name="UA"/>
+    </property>
+  </class>
+</hibernate-mapping>

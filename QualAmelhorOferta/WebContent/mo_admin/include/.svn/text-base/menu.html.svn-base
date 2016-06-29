@@ -1,0 +1,28 @@
+
+
+				   <table>
+								<tr>
+									<td width="179">
+									<img alt="Legenda" height="32" src="images/legenda.jpg" width="179" title="Legenda" /></td>
+								</tr>
+								<tr>
+									<td class="menu-lateral">
+										 <ul>
+											  <li><img alt="Editar" height="16" src="images/icones/editar.png" width="16" />Editar</li>
+											  <li><img alt="remover" height="16" src="images/icones/remover.png" width="16" />Remover</li>
+											  <li><img alt="remover" height="16" src="images/icones/preview.png" width="16" />Visualizar</li>
+											  <li><img alt="Lista Subcategorias" height="16" src="images/icones/subcategorias.png" width="16" border="0" title="Lista Subcategorias" />Lista Subcategoria</li>
+											  <li><img alt="Lista Proposta" height="16" src="images/icones/lista_proposta.gif" width="16" title="Lista Proposta" border="0" />Lista Proposta</li>
+  											  <li><img alt="Informações Adicionais" height="16" src="images/icones/informacoes_adicionais.gif" width="16" border="0" title="Informações Adicionais" />Informações Adicionais</li>
+   											  <li><img alt="Ver Solicitações" height="16" src="images/icones/ver_solicitacao.png" width="16" border="0" title="Ver Solicitações" />Ver Solicitações</li>
+  											  <li><img alt="Ver Avaliações" height="16" src="images/icones/ver_avaliacoes.png" width="16" title="Ver Avaliações" border="0" />Ver Avaliações</li>
+  											  <li><img alt="Ver Interações" height="16" src="images/icones/interacoes.png" width="16" title="Ver Interações" border="0" />Ver Interações</li>
+ 											  <li><img alt="Ver Assinaturas" height="16" src="images/icones/visualiza_assinatura.png" width="16" title="Ver Assinaturas" border="0" />Ver Assinaturas</li>
+										 </ul>
+									</td>
+								</tr>
+								<tr>
+									<td>
+									<img alt="baixo" height="11" src="images/legenda_bx.jpg" width="179" /></td>
+								</tr>
+							</table>
