@@ -164,7 +164,7 @@ function Remover(paNEmpresa)
                 <td class="textos-tabela">
                 <input name="paPagina" type="hidden" value="<=loPagina%>" />
                 <a href="empresa_edita.jsp?nvendedor=<% out.print(v.getUsuario().getNusuario()); %>">
-                    <input alt="" src="images/editar.jpg" type="image" /></td>
+                    <input alt="" src="mo_admin/images/editar.jpg" type="image" /></td>
                 </a>
         </tr>
                 
@@ -310,21 +310,21 @@ If Not loRS.Eof Then
 											<table width="60%">
 												<tr>
 													<td width="16" align="right">
-													<a href="empresa_edita.jsp?paNEmpresa=<=loRS("NEmpresa")%>">
-													<img alt="Editar" height="16" src="images/icones/editar.png" style="border-width: 0px" width="16" title="Editar" /></a></td>
+													<a href="empresa_edita.jsp?paNEmpresa=<=loRS("NEmpresa")%>
+													<img alt="Editar" height="16" src="mo_admin/images/icones/editar.png" style="border-width: 0px" width="16" title="Editar" /></a></td>
 													
 													<!--<td width="16">
 													<a href="proposta_lista.jsp?paNEmpresa=<=loRS("NEmpresa")%>"><img alt="Lista Proposta" height="16" src="images/icones/lista_proposta.gif" width="16" title="Lista Proposta" border="0" /></a></td>-->
 													<td width="16">
-													<a href="informacoes_adicionais_lista.jsp?paNEmpresa=<=loRS("NEmpresa")%>"><img alt="Informações Adicionais" height="16" src="images/icones/informacoes_adicionais.gif" width="16" border="0" title="Informações Adicionais" /></a></td>
+													<a href="informacoes_adicionais_lista.jsp?paNEmpresa=<=loRS("NEmpresa")%><img alt="Informações Adicionais" height="16" src="mo_admin/images/icones/informacoes_adicionais.gif" width="16" border="0" title="Informações Adicionais" /></a></td>
 													<td width="16">
-													<a href="visualizar_avaliacoes.jsp?paNEmpresa=<=loRS("NEmpresa")%>"><img alt="Ver Avaliações" height="16" src="images/icones/ver_avaliacoes.png" width="16" title="Ver Avaliações" border="0" /></a></td>
+													<a href="visualizar_avaliacoes.jsp?paNEmpresa=<=loRS("NEmpresa")%><img alt="Ver Avaliações" height="16" src="mo_admin/images/icones/ver_avaliacoes.png" width="16" title="Ver Avaliações" border="0" /></a></td>
 													<td width="16">
-													<a href="lista_assinatura.jsp?paNEmpresa=<loRS("NEmpresa")%>"><img alt="Ver Assinaturas" height="16" src="images/icones/visualiza_assinatura.png" width="16" title="Ver Assinaturas" border="0" /></a></td>
+													<a href="lista_assinatura.jsp?paNEmpresa=<loRS("NEmpresa")%><img alt="Ver Assinaturas" height="16" src="mo_admin/images/icones/visualiza_assinatura.png" width="16" title="Ver Assinaturas" border="0" /></a></td>
 
 													<td width="16">
-													<a href="javascript:Remover('<=loRS("NEmpresa")%>');">
-													<img alt="Remover" height="16" src="images/icones/remover.png" width="16" border="0" title="Remover" /></a></td>
+													<a href="javascript:Remover('<=loRS("NEmpresa")>
+													<img alt="Remover" height="16" src="mo_admin/images/icones/remover.png" width="16" border="0" title="Remover" /></a></td>
 													
 
 													
@@ -407,7 +407,7 @@ function VerificaNumPag(e)
 </script>
 -->												Página:
 												<input name="paPagina" size="3" type="text" onkeypress="return VerificaNumPag(event)" value="<=loPagina%>"/> 
-												de <=loUltima%>&nbsp;<input onclick="Paginacao();" type="Image" src="images/icones/ok.jpg" value="OK" /></td>
+												de <=loUltima%>&nbsp;<input onclick="Paginacao();" type="Image" src="mo_admin/images/icones/ok.jpg" value="OK" /></td>
 <!--
 	If loPagina < loUltima Then
 %>-->	

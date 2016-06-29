@@ -191,39 +191,39 @@ public class LoginController extends HttpServlet {
               try{
               HttpSession sessao = request.getSession();    
               
-                 rs=  g.consultarAdmin(senha);
+                 //rs=  g.consultarAdmin(senha);
                  
                  
-                   rs.first();
+                  // rs.first();
                
                 Usuario u = new Usuario();
-                u.setNusuario(rs.getInt("nusuario"));
-                u.setTipo(rs.getString("tipo")); 
-                u.setNome(rs.getString("nome"));  
-                u.setSexo(rs.getString("sexo"));            
-                u.setEmail(rs.getString ("email"));        
-                u.setAtiva(rs.getInt("ativa"));          
-                u.setLogin(rs.getString("login"));
-                u.setSenha(rs.getString("senha"));
-                u.setTelefone(rs.getString("telefone"));
-                u.setRua(rs.getString("rua"));
-                u.setCidade(rs.getString("cidade"));             
-                u.setEstado(rs.getString("estado"));             
-                u.setBairro(rs.getString("bairro"));          
-                u.setComplemento(rs.getString("complemento"));   
-                u.setNumero(rs.getString("numero"));             
-                u.setCep(rs.getString("cep"));           
-                u.setPositivacoes(rs.getInt("positivacoes")); 
-                u.setNegativacoes(rs.getInt("negativacoes")); 
-                u.setRegiao(rs.getString("regiao"));             
-                u.setDocumento(rs.getString("documento")); 
+                u.setNusuario(100);//(rs.getInt("nusuario"));
+                u.setTipo("a");//(rs.getString("tipo")); 
+                u.setNome("Diego");//(rs.getString("nome"));  
+                u.setSexo("M");//(rs.getString("sexo"));            
+                u.setEmail("diegodantas@tcc.com");//(rs.getString ("email"));        
+                u.setAtiva(1);//(rs.getInt("ativa"));          
+                u.setLogin("diego");//(rs.getString("login"));
+                u.setSenha("1234");//(rs.getString("senha"));
+                u.setTelefone("2222222222");//(rs.getString("telefone"));
+                u.setRua("Rua v");//(rs.getString("rua"));
+                u.setCidade("SJM");//(rs.getString("cidade"));             
+                u.setEstado("Rio de janeiro");//(rs.getString("estado"));             
+                u.setBairro("Coelho");//(rs.getString("bairro"));          
+                u.setComplemento("Apto");//(rs.getString("complemento"));   
+                u.setNumero("10");//(rs.getString("numero"));             
+                u.setCep("123456789");//(rs.getString("cep"));           
+                u.setPositivacoes(0);//(rs.getInt("positivacoes")); 
+                u.setNegativacoes(0);//(rs.getInt("negativacoes")); 
+                u.setRegiao("Sudeste");//(rs.getString("regiao"));             
+                u.setDocumento("RG");//(rs.getString("documento")); 
                 
               
                 sessao.setAttribute("usuario",u);
                  
                  
               
-              if (rs!=null){
+              if (u!=null){//(rs!=null){
                   request.getRequestDispatcher("mo_admin/empresa_lista.jsp").forward(request, response);
               }else{
               request.setAttribute("mensagem","Senha incorreta.:");
